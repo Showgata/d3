@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+#container
+{
+    margin: 0 auto;
+    height:600px;
+    width: 1000px;
+    border: 2px solid black;
+}
+
+.center
+{
+    
+    display: block;
+    margin: auto;
+    padding: 80px;
+    
+}
+
+.dot
+{
+    stroke: black;
+    stroke-width: 1px;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.dot:hover
+{
+    
+    stroke: black;
+    stroke-width: 3px;
+    
+   
+}
+
+#title
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    text-anchor: middle;
+}
+
+#label
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    text-anchor: middle;
+    transform: rotate(-90deg);
+}
+
+
+#tooltip
+{
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    width: 200px;
+    background-color: rgba(223,234,245,0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#legend
+{
+    width: 150px;
+    height: 75px;
+    position: absolute;
+}
+
+.box
+{
+    stroke: black;
+    stroke-width: 2px;
+    width:15px;
+    height:15px;
+}
+
